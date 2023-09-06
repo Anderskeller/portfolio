@@ -14,6 +14,7 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  Min header samt navigation bar
  !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
     .header {
         position: fixed;
         width: 100%;
@@ -29,7 +30,7 @@
         color: #d51934;
     }
     .logo {
-        font-size: 35px;
+        font-size: 40px;
         text-decoration: none;
         font-weight: 700;
         color: BLACK;
@@ -40,8 +41,8 @@
         font-weight: 600;
         text-decoration: none;
         margin-left: 40px;
-        transition: 0.5s;
-        font-size: 20px;
+        transition: 0.4s;
+        font-size: 24px;
     }
     .navbar a:hover {
         color: #d51934;
@@ -64,7 +65,7 @@
         max-width: 600px;
     }
     .headline-content p {
-        margin: 0px 0px 20px;
+        margin: 0 0 20px;
         font-size: 16px;
     }
     .headline-content h1 {
@@ -90,7 +91,7 @@
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 150px;
+        width: 300px;
         height: 100%;
         color: BLACK;
         border: 2px solid #d51934;
@@ -108,11 +109,11 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 0%;
+        width: 0;
         height: 100%;
         background: #d51934;
         z-index: -1;
-        transition: 0.5s;
+        transition: 0.4s;
     }
     .btn-box a:hover::before {
         width: 100%;
@@ -123,7 +124,7 @@
         border-radius: 100%;
         border-style: solid;
         border: white;
-        box-shadow: 0px 10px 10px 10px #d51934;
+        box-shadow: 0 10px 10px 10px #d51934;
     }
     /* !!!!!!!!!!!!!!!!!!!!!!
     Her min project-page
@@ -133,6 +134,8 @@
         border-radius: 100%;
         border-style: solid;
         border-color: #000534;
+        box-shadow: #d51934 0 10px 10px 10px;
+        margin: 40px;
     }
     .container p {
         max-width: 400px;
@@ -150,7 +153,7 @@
         align-items: center;
         font-weight: 700;
         font-size: 35px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         color: BLACK;
     }
     .container h1:hover{
@@ -160,7 +163,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         color: BLACK;
     }
     /* !!!!!!!!!!!!!!!!!!!!!!
