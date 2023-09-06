@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: WHITE;
+    }
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ Min header samt navigation bar
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    .header {
+        position: fixed;
+        width: 100%;
+        padding: 20px 100px;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: WHITE;
+    }
+    .logo::first-letter {
+        color: #d51934;
+    }
+    .logo {
+        font-size: 35px;
+        text-decoration: none;
+        font-weight: 700;
+        color: BLACK;
+        padding: 0 4%;
+    }
+    .navbar a {
+        color: BLACK;
+        font-weight: 600;
+        text-decoration: none;
+        margin-left: 40px;
+        transition: 0.5s;
+        font-size: 20px;
+    }
+    .navbar a:hover {
+        color: #d51934;
+    }
+    .navbar a.active {
+        color: #d51934;
+    }
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+     Her er første section, der displayer min portræt samt information om mig
+     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    .headline {
+        display: flex;
+        align-items: center;
+        padding: 0 10%;
+        height: 100vh;
+        color: BLACK;
+        width: 100%;
+    }
+    .headline-content {
+        max-width: 600px;
+    }
+    .headline-content p {
+        margin: 0px 0px 20px;
+        font-size: 16px;
+    }
+    .headline-content h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .headline-content h3 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #d51934
+    }
+    .headline-content .btn-box {
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        height: 50px;
+    }
+    /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    Her er mine 2 buttons, der har en hover transition
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    .btn-box a {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 100%;
+        color: BLACK;
+        border: 2px solid #d51934;
+        background: #d51934;
+        border-radius: 10px;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .btn-box a {
+        background: transparent;
+    }
+    .btn-box a::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: #d51934;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    .btn-box a:hover::before {
+        width: 100%;
+    }
+    .portrait {
+        width: 350px;
+        margin-left: 180px;
+        border-radius: 100%;
+        border-style: solid;
+        border: white;
+        box-shadow: 0px 10px 10px 10px #d51934;
+    }
+    /* !!!!!!!!!!!!!!!!!!!!!!
+    Her min project-page
+     !!!!!!!!!!!!!!!!!!!!!!!*/
+    .picture {
+        width: 400px;
+        border-radius: 100%;
+        border-style: solid;
+        border-color: #000534;
+    }
+    .container p {
+        max-width: 400px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .container {
+        padding: 2% 20%;
+        background: WHITE;
+        height: 100vh;
+    }
+    .container h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 40px;
+        color: BLACK;
+    }
+    .container h1:hover{
+        color: #d51934;
+    }
+    .projects, .projects2, .projects3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        color: BLACK;
+    }
+    /* !!!!!!!!!!!!!!!!!!!!!!
+    Her er min contact-page
+    !!!!!!!!!!!!!!!!!!!!!!!! */
+    footer {
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: WHITE;
+    }
+    .contact-menu img {
+        width: 96px;
+        height: 96px;
+    }
+    .contact-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d51934;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
