@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c1dc3f-6615-44a9-aa0b-22532c076af2" name="Changes" comment="ok">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="d4c1dc3f-6615-44a9-aa0b-22532c076af2" name="Changes" comment="Min hjemmeside" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +83,7 @@
       <workItem from="1693153314480" duration="26785000" />
       <workItem from="1693246298801" duration="7014000" />
       <workItem from="1693299792045" duration="67158000" />
-      <workItem from="1693916611833" duration="13252000" />
+      <workItem from="1693916611833" duration="13561000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <option name="closed" value="true" />
@@ -96,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693981828840</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Min hjemmeside">
+      <option name="closed" value="true" />
+      <created>1693982206871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693982206871</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+    <MESSAGE value="Min hjemmeside" />
+    <option name="LAST_COMMIT_MESSAGE" value="Min hjemmeside" />
   </component>
 </project>
